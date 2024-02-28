@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+ul,
+li,
+p,
+h1,
+h2,
+a,
+input {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  border: none;
+}
