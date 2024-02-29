@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
