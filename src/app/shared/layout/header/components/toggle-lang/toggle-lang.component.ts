@@ -5,7 +5,16 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-toggle-lang',
   standalone: true,
   imports: [CommonModule],
-  template: `<button>PL</button>`,
+  template: `<button>
+    <img
+      src="https://www.webankieta.pl/wp-content/themes/webankieta/img/icons/earth.svg"
+      alt="ikona ziemii"
+      width="17"
+      height="17"
+      class="earth-icon"
+    />
+    <span>PL</span>
+  </button>`,
   styleUrl: './toggle-lang.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

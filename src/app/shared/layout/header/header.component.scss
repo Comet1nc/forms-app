@@ -8,15 +8,27 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  padding: 10px 0;
 }
 
 ul {
   display: flex;
   gap: 10px;
+  width: 260px;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 5px;
+}
+
+.login-btn {
+  padding: 10px;
+  background-color: #009b85;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
 }
