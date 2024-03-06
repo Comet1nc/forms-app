@@ -1,14 +1,15 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { ToggleLangComponent } from './components/toggle-lang/toggle-lang.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { LinkListComponent } from './components/link-list/link-list.component';
+import { fromEvent, map } from 'rxjs';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   template: `
-    <header>
+    <header [ngClass]="{ scrolled: isScrolled$ | async }">
       <div class="container">
         <app-logo></app-logo>
         <app-link-list></app-link-list>
@@ -32,4 +33,8 @@ import { LinkListComponent } from './components/link-list/link-list.component';
     LinkListComponent,
   ],
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  isScrolled$ = fromEvent(window, 'scroll').pipe(
+    map((e) => window.scrollY > 50)
+  );
+}
