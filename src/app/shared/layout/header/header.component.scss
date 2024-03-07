@@ -3,6 +3,7 @@
 }
 
 header {
+  z-index: 5;
   position: fixed;
   background-color: #ffffff00;
   box-shadow: none;
@@ -22,6 +23,7 @@ ul {
   display: flex;
   gap: 10px;
   width: 260px;
+  padding: 25px 0;
 }
 
 .container {

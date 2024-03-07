@@ -35,6 +35,6 @@ import { fromEvent, map } from 'rxjs';
 })
 export class HeaderComponent {
   isScrolled$ = fromEvent(window, 'scroll').pipe(
-    map((e) => window.scrollY > 50)
+    map((e) => window.scrollY > 30)
   );
 }
