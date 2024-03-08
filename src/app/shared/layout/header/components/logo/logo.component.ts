@@ -6,13 +6,12 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <figure class="logo">
-      <object
-        type="image/svg+xml"
-        class="logo-image"
-        data="https://www.webankieta.pl/wp-content/uploads/2022/10/webankieta-logo-animated.svg"
-      ></object>
-    </figure>
+    <a href="#" class="logo">
+      <img
+        src="https://www.webankieta.pl/wp-content/uploads/2022/10/webankieta-logo-animated.svg"
+        alt=""
+      />
+    </a>
   `,
   styleUrl: './logo.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  background: #FAFAFA;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 40px 80px;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    color: #324d5a;
+  }
+
+  span {
+    margin: 5px;
+  }
+
+  .app-name {
+    font-weight: 600;
+  }
+}

@@ -21,6 +21,7 @@ header {
 
 ul {
   display: flex;
+  flex-direction: row-reverse;
   gap: 10px;
   width: 260px;
   padding: 25px 0;
@@ -31,7 +32,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0px 5px;
+  margin: 0px 80px;
 }
 
 .login-btn {

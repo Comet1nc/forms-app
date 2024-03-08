@@ -1,0 +1,48 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin: 0 auto;
+
+  .title {
+    text-align: center;
+    color: #032c3e;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .scheme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    li {
+      width: 290px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      .text {
+        text-align: center;
+        color: #032c3e;
+      }
+    }
+  }
+}

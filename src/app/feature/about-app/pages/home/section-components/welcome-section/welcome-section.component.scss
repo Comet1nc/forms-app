@@ -1,0 +1,55 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFBF7;
+  padding-top: 130px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  padding: 70px 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto;
+
+  .right {
+    width: 700px;
+    height: 440px;
+    position: relative;
+    margin-left: auto;
+
+    .image-wrapper {
+      position: absolute;
+      width: 100%;
+      right: -125px;
+    }
+  }
+
+  .title {
+    color: rgb(3, 44, 62);
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .login-btn {
+    cursor: pointer;
+    color: #fff;
+    background-color: #009b85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 17px;
+    font-weight: 600;
+    border-radius: 4px;
+    width: fit-content;
+    gap: 10px;
+  }
+}
