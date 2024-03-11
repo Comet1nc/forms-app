@@ -13,8 +13,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
         i dużo więcej
       </h1>
       <p class="sub-title">
-        Dołącz do setek firm i instytucji, które wybrały <br />
-        Webankietę do pozyskiwania feedbacku i opinii od <br />
+        Wybierz Webankietę do pozyskiwania feedbacku i opinii od <br />
         swoich klientów, pracowników i użytkowników.
       </p>
       <a class="login-btn">

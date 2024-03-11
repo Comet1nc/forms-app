@@ -12,7 +12,7 @@ import { fromEvent, map } from 'rxjs';
     <header [ngClass]="{ scrolled: isScrolled$ | async }">
       <div class="container">
         <app-logo></app-logo>
-        <app-link-list></app-link-list>
+        <!-- <app-link-list></app-link-list> -->
         <ul>
           <li>
             <button class="login-btn">Zaloguj</button>

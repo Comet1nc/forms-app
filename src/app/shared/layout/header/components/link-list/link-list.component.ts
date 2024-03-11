@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [CommonModule],
   template: `<ul>
     <li>
-      <a href="#"> Funkcje </a>
+      <a href="#functions"> Funkcje </a>
     </li>
     <li><a href="#"> Zastosowania </a></li>
     <li><a href="#"> Przykłady ankiet </a></li>
