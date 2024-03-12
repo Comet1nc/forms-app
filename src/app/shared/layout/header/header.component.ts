@@ -4,6 +4,7 @@ import { ToggleLangComponent } from './components/toggle-lang/toggle-lang.compon
 import { LogoComponent } from './components/logo/logo.component';
 import { LinkListComponent } from './components/link-list/link-list.component';
 import { fromEvent, map } from 'rxjs';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -15,7 +16,7 @@ import { fromEvent, map } from 'rxjs';
         <!-- <app-link-list></app-link-list> -->
         <ul>
           <li>
-            <button class="login-btn">Zaloguj</button>
+            <a class="login-btn" routerLink="auth/login">Zaloguj</a>
           </li>
           <li>
             <app-toggle-lang></app-toggle-lang>
@@ -31,6 +32,7 @@ import { fromEvent, map } from 'rxjs';
     ToggleLangComponent,
     LogoComponent,
     LinkListComponent,
+    RouterLink,
   ],
 })
 export class HeaderComponent {

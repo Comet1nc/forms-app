@@ -25,6 +25,10 @@ ul {
   gap: 10px;
   width: 260px;
   padding: 25px 0;
+
+  li {
+    display: flex;
+  }
 }
 
 .container {
