@@ -13,3 +13,24 @@ header {
   padding: 10px 0;
 
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 13px 80px;
+}
+
+.switch-auth-method {
+  padding: 10px;
+  background-color: #009b85;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: filter 0.2s ease-in-out;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+}
